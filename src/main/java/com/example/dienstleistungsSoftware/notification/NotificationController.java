@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://dienstleistungs.herokuapp.com")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @Service
 @RequestMapping("/notification")
