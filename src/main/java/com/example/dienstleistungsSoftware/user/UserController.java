@@ -3,7 +3,7 @@ package com.example.dienstleistungsSoftware.user;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://dienstleistungs.herokuapp.com")
 @RequestMapping("/user")
 @RestController
 public class UserController {
