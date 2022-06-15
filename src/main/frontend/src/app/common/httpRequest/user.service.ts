@@ -15,7 +15,7 @@ import { changePassword } from '../object/changePassword';
  */
 export class UserService {
   // Siehe bei environment nach
-  private apiServerUrl = 'http://localhost:8080/user';
+  private apiServerUrl = 'https://dienstleistungs-software.herokuapp.com/user';
 
   constructor(private http: HttpClient) {}
 
